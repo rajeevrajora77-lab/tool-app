@@ -7,18 +7,1089 @@
     "website": "https://github.com",
     "founded": "2008",
     "type": "Proprietary",
-    "description": "Distributed version control, code hosting, collaborative software development, CI/CD integration, and developer community platform",
+    "description": "World's largest code hosting platform with 100M+ developers. Complete DevOps platform with Actions, Packages, Security, and Copilot AI.",
     "pricing": {
       "free": true,
       "tiers": [
-        {"name": "Free", "price": 0, "features": ["Unlimited public/private repos", "2,000 Actions minutes/month", "500MB Packages storage"]},
-        {"name": "Team", "price": 4, "period": "user/month", "features": ["3,000 Actions minutes/month", "2GB Packages storage", "Protected branches"]},
-        {"name": "Enterprise", "price": 21, "period": "user/month", "features": ["50,000 Actions minutes/month", "SAML SSO", "Advanced auditing"]}
+        {
+          "name": "Free",
+          "price": 0,
+          "features": [
+            "Unlimited repos",
+            "2,000 Actions min/mo"
+          ]
+        },
+        {
+          "name": "Team",
+          "price": 4,
+          "period": "user/mo",
+          "features": [
+            "3,000 Actions min",
+            "Protected branches"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": 21,
+          "period": "user/mo",
+          "features": [
+            "50K Actions min",
+            "SAML SSO"
+          ]
+        }
       ]
     },
-    "pros": ["Largest developer community", "Industry-leading CI/CD", "Extensive integrations", "Strong security"],
-    "cons": ["Microsoft ownership concerns", "Pricing can escalate", "Some features enterprise-only"],
+    "pros": [
+      "Largest dev community",
+      "Best CI/CD with Actions",
+      "Excellent integrations",
+      "GitHub Copilot AI"
+    ],
+    "cons": [
+      "Can be expensive at scale",
+      "Some features enterprise-only",
+      "Occasional outages"
+    ],
     "apiAvailable": true,
     "segment": 1
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab",
+    "category": "Version Control & Collaboration",
+    "categoryId": "version-control",
+    "website": "https://gitlab.com",
+    "founded": "2011",
+    "type": "Open Core",
+    "description": "Complete DevOps platform with built-in CI/CD, security scanning, and project management. Self-hosted or cloud.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Free",
+          "price": 0,
+          "features": [
+            "Unlimited repos",
+            "400 CI/CD min/mo"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": 19,
+          "period": "user/mo",
+          "features": [
+            "10K CI/CD min",
+            "Code review"
+          ]
+        },
+        {
+          "name": "Ultimate",
+          "price": 99,
+          "period": "user/mo",
+          "features": [
+            "Security scanning",
+            "Compliance"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "All-in-one DevOps",
+      "Self-hosted option",
+      "Built-in security",
+      "Open core"
+    ],
+    "cons": [
+      "UI can be cluttered",
+      "Steeper learning curve",
+      "Smaller marketplace"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "bitbucket",
+    "name": "Bitbucket",
+    "category": "Version Control & Collaboration",
+    "categoryId": "version-control",
+    "website": "https://bitbucket.org",
+    "founded": "2008",
+    "type": "Proprietary",
+    "description": "Git solution from Atlassian with deep Jira, Confluence, and Trello integration. Built-in CI/CD with Pipelines.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Free",
+          "price": 0,
+          "features": [
+            "Up to 5 users",
+            "50 build min/mo"
+          ]
+        },
+        {
+          "name": "Standard",
+          "price": 3,
+          "period": "user/mo",
+          "features": [
+            "2,500 build min"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": 6,
+          "period": "user/mo",
+          "features": [
+            "3,500 build min"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Atlassian ecosystem",
+      "Affordable pricing",
+      "Good for teams",
+      "Built-in CI/CD"
+    ],
+    "cons": [
+      "Smaller community",
+      "Limited integrations",
+      "Mercurial dropped"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "vscode",
+    "name": "Visual Studio Code",
+    "category": "Programming IDEs & Editors",
+    "categoryId": "ides-editors",
+    "website": "https://code.visualstudio.com",
+    "founded": "2015",
+    "type": "Open-source",
+    "description": "Most popular code editor with 30K+ extensions. Lightning fast, Git integrated, IntelliSense, debugging, and Copilot support.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Free",
+          "price": 0,
+          "features": [
+            "All features",
+            "30K+ extensions",
+            "Built-in Git"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Largest extension ecosystem",
+      "Fast and lightweight",
+      "Excellent IntelliSense",
+      "Cross-platform"
+    ],
+    "cons": [
+      "Electron-based memory usage",
+      "Can slow with many extensions"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "intellij-idea",
+    "name": "IntelliJ IDEA",
+    "category": "Programming IDEs & Editors",
+    "categoryId": "ides-editors",
+    "website": "https://www.jetbrains.com/idea",
+    "founded": "2001",
+    "type": "Proprietary",
+    "description": "Best-in-class IDE for Java, Kotlin, and JVM languages. Intelligent code completion, refactoring, Spring support.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Community",
+          "price": 0,
+          "features": [
+            "Java",
+            "Kotlin",
+            "Android"
+          ]
+        },
+        {
+          "name": "Ultimate",
+          "price": 169,
+          "period": "year",
+          "features": [
+            "Web dev",
+            "Spring",
+            "Database tools"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Best code intelligence",
+      "Deep framework support",
+      "Excellent refactoring",
+      "Great Kotlin support"
+    ],
+    "cons": [
+      "Resource-intensive",
+      "Ultimate edition costly",
+      "Slower startup"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "category": "Programming IDEs & Editors",
+    "categoryId": "ides-editors",
+    "website": "https://cursor.com",
+    "founded": "2022",
+    "type": "Proprietary",
+    "description": "AI-first code editor with GPT-4 and Claude integration. Context-aware code generation, multi-file editing with AI.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Free",
+          "price": 0,
+          "features": [
+            "2K completions/mo",
+            "50 premium requests"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": 20,
+          "period": "mo",
+          "features": [
+            "Unlimited completions",
+            "500 fast requests"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": 40,
+          "period": "user/mo",
+          "features": [
+            "Team features",
+            "SSO"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Best AI coding assistant",
+      "VS Code compatible",
+      "Context-aware AI",
+      "Natural language coding"
+    ],
+    "cons": [
+      "Requires internet",
+      "Subscription cost",
+      "AI needs review",
+      "Relatively new"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "pycharm",
+    "name": "PyCharm",
+    "category": "Programming IDEs & Editors",
+    "categoryId": "ides-editors",
+    "website": "https://www.jetbrains.com/pycharm",
+    "founded": "2010",
+    "type": "Proprietary",
+    "description": "Professional Python IDE with Django/Flask support, data science tools, and intelligent code assistance.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Community",
+          "price": 0,
+          "features": [
+            "Python dev",
+            "Debugging",
+            "Testing"
+          ]
+        },
+        {
+          "name": "Professional",
+          "price": 89,
+          "period": "year",
+          "features": [
+            "Web frameworks",
+            "Database tools",
+            "Remote dev"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Best Python IDE",
+      "Excellent Django support",
+      "Scientific tools",
+      "Great refactoring"
+    ],
+    "cons": [
+      "Pro needed for web dev",
+      "Resource-intensive",
+      "Slower than VS Code"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "webstorm",
+    "name": "WebStorm",
+    "category": "Programming IDEs & Editors",
+    "categoryId": "ides-editors",
+    "website": "https://www.jetbrains.com/webstorm",
+    "founded": "2010",
+    "type": "Proprietary",
+    "description": "Professional JavaScript/TypeScript IDE. React, Vue, Angular support with intelligent coding assistance.",
+    "pricing": {
+      "free": false,
+      "tiers": [
+        {
+          "name": "Individual",
+          "price": 69,
+          "period": "year",
+          "features": [
+            "All frameworks",
+            "Built-in tools",
+            "Testing"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Best JS/TS IDE",
+      "Framework-specific features",
+      "Excellent TypeScript",
+      "Built-in tools"
+    ],
+    "cons": [
+      "No free edition",
+      "Resource usage",
+      "Can be complex"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "sublime-text",
+    "name": "Sublime Text",
+    "category": "Programming IDEs & Editors",
+    "categoryId": "ides-editors",
+    "website": "https://www.sublimetext.com",
+    "founded": "2008",
+    "type": "Proprietary",
+    "description": "Lightning-fast text editor with powerful shortcuts, multiple cursors, and extensive customization.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Free Eval",
+          "price": 0,
+          "features": [
+            "Unlimited trial",
+            "All features"
+          ]
+        },
+        {
+          "name": "License",
+          "price": 99,
+          "period": "one-time",
+          "features": [
+            "Lifetime license",
+            "All versions"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Extremely fast",
+      "Low resource usage",
+      "One-time payment",
+      "Great shortcuts"
+    ],
+    "cons": [
+      "Smaller ecosystem",
+      "No built-in debugging",
+      "Less frequent updates"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "vim",
+    "name": "Vim/Neovim",
+    "category": "Programming IDEs & Editors",
+    "categoryId": "ides-editors",
+    "website": "https://www.vim.org",
+    "founded": "1991",
+    "type": "Open-source",
+    "description": "Highly efficient modal text editor. Ultimate keyboard-driven workflow with endless customization.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Open Source",
+          "price": 0,
+          "features": [
+            "Completely free",
+            "Highly customizable",
+            "Lightweight"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Unmatched efficiency",
+      "Extremely lightweight",
+      "Available everywhere",
+      "Keyboard-centric"
+    ],
+    "cons": [
+      "Steep learning curve",
+      "Requires configuration",
+      "Not beginner-friendly"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "category": "Cloud Platforms",
+    "categoryId": "cloud-platforms",
+    "website": "https://vercel.com",
+    "founded": "2015",
+    "type": "Proprietary",
+    "description": "Frontend cloud platform for Next.js and modern web apps. Instant deployment, edge network, serverless functions.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Hobby",
+          "price": 0,
+          "features": [
+            "Unlimited deployments",
+            "100GB bandwidth"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": 20,
+          "period": "mo",
+          "features": [
+            "1TB bandwidth",
+            "Team collaboration"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": 0,
+          "period": "custom",
+          "features": [
+            "Custom everything"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Best for Next.js",
+      "Instant deployments",
+      "Global CDN",
+      "Zero config"
+    ],
+    "cons": [
+      "Can be expensive",
+      "Vendor lock-in",
+      "Limited backend"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "railway",
+    "name": "Railway",
+    "category": "Cloud Platforms",
+    "categoryId": "cloud-platforms",
+    "website": "https://railway.app",
+    "founded": "2020",
+    "type": "Proprietary",
+    "description": "Modern application deployment. Auto-detection, databases, cron jobs. Deploy from GitHub in clicks.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Starter",
+          "price": 0,
+          "features": [
+            "$5 free credit/mo",
+            "Community support"
+          ]
+        },
+        {
+          "name": "Developer",
+          "price": 5,
+          "period": "mo",
+          "features": [
+            "Higher limits",
+            "Email support"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Simple deployment",
+      "Good DX",
+      "Auto-detection",
+      "Fair pricing"
+    ],
+    "cons": [
+      "Newer platform",
+      "Limited docs",
+      "Growing pains"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "heroku",
+    "name": "Heroku",
+    "category": "Cloud Platforms",
+    "categoryId": "cloud-platforms",
+    "website": "https://www.heroku.com",
+    "founded": "2007",
+    "type": "Proprietary",
+    "description": "Pioneer PaaS platform. Git-based deployment, add-ons ecosystem, managed databases and services.",
+    "pricing": {
+      "free": false,
+      "tiers": [
+        {
+          "name": "Eco",
+          "price": 5,
+          "period": "mo",
+          "features": [
+            "Basic apps",
+            "Shared compute"
+          ]
+        },
+        {
+          "name": "Basic",
+          "price": 7,
+          "period": "mo",
+          "features": [
+            "Production apps"
+          ]
+        },
+        {
+          "name": "Standard",
+          "price": 25,
+          "period": "mo",
+          "features": [
+            "Scaling",
+            "Metrics"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Easy to use",
+      "Great for beginners",
+      "Large addon ecosystem",
+      "Established platform"
+    ],
+    "cons": [
+      "Expensive at scale",
+      "Free tier removed",
+      "Limited control"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "category": "Design & Creative Tools",
+    "categoryId": "design-creative",
+    "website": "https://www.figma.com",
+    "founded": "2012",
+    "type": "Proprietary",
+    "description": "Collaborative interface design tool. Real-time collaboration, prototyping, design systems, and Dev Mode.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Starter",
+          "price": 0,
+          "features": [
+            "3 files",
+            "Unlimited personal"
+          ]
+        },
+        {
+          "name": "Professional",
+          "price": 12,
+          "period": "editor/mo",
+          "features": [
+            "Unlimited files",
+            "Version history"
+          ]
+        },
+        {
+          "name": "Organization",
+          "price": 45,
+          "period": "editor/mo",
+          "features": [
+            "Design systems",
+            "Admin"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Real-time collaboration",
+      "Browser-based",
+      "Excellent prototyping",
+      "Design systems"
+    ],
+    "cons": [
+      "Requires internet",
+      "Performance with huge files",
+      "Limited offline"
+    ],
+    "apiAvailable": true,
+    "segment": 2
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "category": "Design & Creative Tools",
+    "categoryId": "design-creative",
+    "website": "https://www.canva.com",
+    "founded": "2012",
+    "type": "Proprietary",
+    "description": "Easy graphic design platform. 100K+ templates, drag-and-drop editor, presentations, social media graphics.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Free",
+          "price": 0,
+          "features": [
+            "250K+ templates",
+            "5GB storage"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": 12.99,
+          "period": "mo",
+          "features": [
+            "Premium content",
+            "100GB storage"
+          ]
+        },
+        {
+          "name": "Teams",
+          "price": 30,
+          "period": "mo",
+          "features": [
+            "Team features",
+            "Brand kit"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Very easy to use",
+      "Massive template library",
+      "Great for social media",
+      "No design skills needed"
+    ],
+    "cons": [
+      "Less professional output",
+      "Limited customization",
+      "Can look generic"
+    ],
+    "apiAvailable": true,
+    "segment": 2
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "category": "AI Development Tools",
+    "categoryId": "ai-development",
+    "website": "https://chat.openai.com",
+    "founded": "2022",
+    "type": "Proprietary",
+    "description": "Advanced AI chatbot by OpenAI. GPT-4 powered conversations, image generation, data analysis, web browsing.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Free",
+          "price": 0,
+          "features": [
+            "GPT-3.5",
+            "Basic features"
+          ]
+        },
+        {
+          "name": "Plus",
+          "price": 20,
+          "period": "mo",
+          "features": [
+            "GPT-4",
+            "DALL-E",
+            "Priority access"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": 0,
+          "period": "custom",
+          "features": [
+            "Unlimited GPT-4",
+            "Admin controls"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Most advanced AI",
+      "Versatile capabilities",
+      "Great for coding",
+      "Large context window"
+    ],
+    "cons": [
+      "Can hallucinate",
+      "Subscription cost",
+      "Rate limits",
+      "Data privacy"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "category": "AI Development Tools",
+    "categoryId": "ai-development",
+    "website": "https://claude.ai",
+    "founded": "2023",
+    "type": "Proprietary",
+    "description": "Anthropic's AI assistant. Excellent reasoning, 200K context, safer outputs, artifact generation.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Free",
+          "price": 0,
+          "features": [
+            "Claude Sonnet",
+            "Basic limits"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": 20,
+          "period": "mo",
+          "features": [
+            "5x usage",
+            "Priority access"
+          ]
+        },
+        {
+          "name": "Team",
+          "price": 30,
+          "period": "user/mo",
+          "features": [
+            "Team features",
+            "Higher limits"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Excellent reasoning",
+      "200K context",
+      "Safer outputs",
+      "Great for analysis"
+    ],
+    "cons": [
+      "Newer platform",
+      "Less known",
+      "Regional limits"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "DevOps & CI/CD",
+    "categoryId": "devops-cicd",
+    "website": "https://www.docker.com",
+    "founded": "2013",
+    "type": "Open Core",
+    "description": "Container platform for packaging applications. Build once, run anywhere with Docker containers.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Free",
+          "price": 0,
+          "features": [
+            "Unlimited public repos"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Industry standard",
+      "Easy to use",
+      "Great ecosystem"
+    ],
+    "cons": [
+      "Learning curve",
+      "Resource usage"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "category": "DevOps & CI/CD",
+    "categoryId": "devops-cicd",
+    "website": "https://kubernetes.io",
+    "founded": "2014",
+    "type": "Open-source",
+    "description": "Container orchestration platform. Automate deployment, scaling, and management of containerized apps.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Open Source",
+          "price": 0,
+          "features": [
+            "Completely free"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Industry standard",
+      "Highly scalable",
+      "Cloud-agnostic"
+    ],
+    "cons": [
+      "Complex setup",
+      "Steep learning curve"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Databases",
+    "categoryId": "databases",
+    "website": "https://www.postgresql.org",
+    "founded": "1996",
+    "type": "Open-source",
+    "description": "Advanced open-source relational database. ACID compliant, JSON support, full-text search, extensions.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Open Source",
+          "price": 0,
+          "features": [
+            "Free forever"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Feature-rich",
+      "Excellent performance",
+      "Strong community"
+    ],
+    "cons": [
+      "Complex for beginners",
+      "Requires tuning"
+    ],
+    "apiAvailable": false,
+    "segment": 1
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Databases",
+    "categoryId": "databases",
+    "website": "https://www.mongodb.com",
+    "founded": "2007",
+    "type": "Open Core",
+    "description": "Leading NoSQL database. Document-based, flexible schema, horizontal scaling, cloud-native.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Free",
+          "price": 0,
+          "features": [
+            "512MB storage"
+          ]
+        },
+        {
+          "name": "Serverless",
+          "price": 0,
+          "period": "pay-as-go",
+          "features": [
+            "Auto-scaling"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Flexible schema",
+      "Easy to scale",
+      "Great for rapid dev"
+    ],
+    "cons": [
+      "Memory hungry",
+      "Not ACID by default"
+    ],
+    "apiAvailable": true,
+    "segment": 1
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "category": "Databases",
+    "categoryId": "databases",
+    "website": "https://redis.io",
+    "founded": "2009",
+    "type": "Open Core",
+    "description": "In-memory data store. Ultra-fast caching, pub/sub, real-time leaderboards, session storage.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Open Source",
+          "price": 0,
+          "features": [
+            "Free forever"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Extremely fast",
+      "Versatile use cases",
+      "Simple to use"
+    ],
+    "cons": [
+      "In-memory only",
+      "Data persistence tricky"
+    ],
+    "apiAvailable": false,
+    "segment": 1
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "category": "Productivity Tools",
+    "categoryId": "productivity",
+    "website": "https://www.notion.so",
+    "founded": "2016",
+    "type": "Proprietary",
+    "description": "All-in-one workspace. Notes, docs, wikis, databases, project management in one beautiful app.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Free",
+          "price": 0,
+          "features": [
+            "Unlimited blocks"
+          ]
+        },
+        {
+          "name": "Plus",
+          "price": 8,
+          "period": "user/mo",
+          "features": [
+            "Unlimited file uploads"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Very flexible",
+      "Beautiful UI",
+      "Great collaboration"
+    ],
+    "cons": [
+      "Can be slow",
+      "Learning curve",
+      "Offline issues"
+    ],
+    "apiAvailable": true,
+    "segment": 2
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "category": "Productivity Tools",
+    "categoryId": "productivity",
+    "website": "https://slack.com",
+    "founded": "2013",
+    "type": "Proprietary",
+    "description": "Team communication platform. Channels, DMs, integrations, huddles, Slack Connect for external teams.",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {
+          "name": "Free",
+          "price": 0,
+          "features": [
+            "90-day history"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": 7.25,
+          "period": "user/mo",
+          "features": [
+            "Unlimited history",
+            "Integrations"
+          ]
+        }
+      ]
+    },
+    "pros": [
+      "Industry standard",
+      "Great integrations",
+      "Easy to use"
+    ],
+    "cons": [
+      "Can be distracting",
+      "Gets expensive",
+      "Notification overload"
+    ],
+    "apiAvailable": true,
+    "segment": 2
   }
 ]
