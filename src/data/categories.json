@@ -1,0 +1,187 @@
+{
+  "1.1": {
+    "id": "version-control",
+    "name": "Version Control & Collaboration",
+    "segment": 1
+  },
+  "1.2": {
+    "id": "ides-editors",
+    "name": "Programming IDEs & Editors",
+    "segment": 1
+  },
+  "1.3": {
+    "id": "devops-cicd",
+    "name": "DevOps & CI/CD",
+    "segment": 1
+  },
+  "1.4": {
+    "id": "cloud-platforms",
+    "name": "Cloud Platforms",
+    "segment": 1
+  },
+  "1.5": {
+    "id": "backend-frameworks",
+    "name": "Backend Frameworks",
+    "segment": 1
+  },
+  "1.6": {
+    "id": "frontend-frameworks",
+    "name": "Frontend Frameworks",
+    "segment": 1
+  },
+  "1.7": {
+    "id": "databases",
+    "name": "Databases",
+    "segment": 1
+  },
+  "1.8": {
+    "id": "ai-development",
+    "name": "AI Development Tools",
+    "segment": 1
+  },
+  "1.9": {
+    "id": "data-bi",
+    "name": "Data & BI Tools",
+    "segment": 1
+  },
+  "1.10": {
+    "id": "security-compliance",
+    "name": "Security & Compliance Tools",
+    "segment": 1
+  },
+  "1.11": {
+    "id": "monitoring-observability",
+    "name": "Monitoring & Observability",
+    "segment": 1
+  },
+  "1.12": {
+    "id": "automation-platforms",
+    "name": "Automation Platforms",
+    "segment": 1
+  },
+  "2.1": {
+    "id": "marketing-growth",
+    "name": "Marketing & Growth Tools",
+    "segment": 2
+  },
+  "2.2": {
+    "id": "seo-tools",
+    "name": "SEO Tools",
+    "segment": 2
+  },
+  "2.3": {
+    "id": "design-creative",
+    "name": "Design & Creative Tools",
+    "segment": 2
+  },
+  "2.4": {
+    "id": "video-editing",
+    "name": "Video Editing & Production",
+    "segment": 2
+  },
+  "2.5": {
+    "id": "audio-podcast",
+    "name": "Audio & Podcast Tools",
+    "segment": 2
+  },
+  "2.6": {
+    "id": "finance-accounting",
+    "name": "Finance & Accounting Tools",
+    "segment": 2
+  },
+  "2.7": {
+    "id": "crm-systems",
+    "name": "CRM Systems",
+    "segment": 2
+  },
+  "2.8": {
+    "id": "hr-recruitment",
+    "name": "HR & Recruitment",
+    "segment": 2
+  },
+  "2.9": {
+    "id": "legal-tech",
+    "name": "Legal Tech",
+    "segment": 2
+  },
+  "2.10": {
+    "id": "education-elearning",
+    "name": "Education & E-learning",
+    "segment": 2
+  },
+  "2.11": {
+    "id": "medical-health",
+    "name": "Medical & Health AI Tools",
+    "segment": 2
+  },
+  "2.12": {
+    "id": "cybersecurity",
+    "name": "Cybersecurity Platforms",
+    "segment": 2
+  },
+  "2.13": {
+    "id": "robotics-automation",
+    "name": "Robotics & Automation",
+    "segment": 2
+  },
+  "2.14": {
+    "id": "no-code-low-code",
+    "name": "No-Code / Low-Code Platforms",
+    "segment": 2
+  },
+  "2.15": {
+    "id": "3d-game-dev",
+    "name": "3D & Game Development Tools",
+    "segment": 2
+  },
+  "2.16": {
+    "id": "ar-vr",
+    "name": "AR/VR Platforms",
+    "segment": 2
+  },
+  "2.17": {
+    "id": "blockchain-web3",
+    "name": "Blockchain & Web3 Tools",
+    "segment": 2
+  },
+  "2.18": {
+    "id": "productivity",
+    "name": "Productivity Tools",
+    "segment": 2
+  },
+  "2.19": {
+    "id": "knowledge-management",
+    "name": "Knowledge Management",
+    "segment": 2
+  },
+  "2.20": {
+    "id": "cloud-storage",
+    "name": "Cloud Storage",
+    "segment": 2
+  },
+  "2.21": {
+    "id": "ecommerce",
+    "name": "E-commerce Platforms",
+    "segment": 2
+  },
+  "2.22": {
+    "id": "customer-support",
+    "name": "Customer Support Tools",
+    "segment": 2
+  },
+  "2.23": {
+    "id": "enterprise-erp",
+    "name": "Enterprise ERP Systems",
+    "segment": 2
+  },
+  "2.24": {
+    "id": "hardware-ai",
+    "name": "Hardware AI Devices",
+    "segment": 2
+  },
+  "2.25": {
+    "id": "research-academic",
+    "name": "Research & Academic Tools",
+    "segment": 2
+  }
+}
