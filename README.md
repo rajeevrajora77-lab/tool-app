@@ -1,73 +1,137 @@
-# React + TypeScript + Vite
+# AI & Digital Tools Intelligence System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive React + TypeScript web application showcasing 500+ AI and digital tools across 37 categories.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **500+ Tools Database**: Comprehensive collection of development and business tools
+- **37 Categories**: From Version Control to AR/VR Platforms
+- **Advanced Filtering**: Search, category, segment, type, and pricing filters
+- **Responsive Design**: Beautiful UI with Tailwind CSS
+- **Real-time Search**: Instant tool discovery
+- **Detailed Tool Cards**: Pricing, pros/cons, API availability
 
-## React Compiler
+## 📊 Categories
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Segment 1: Development & Data Ecosystem
+- Version Control & Collaboration
+- Programming IDEs & Editors
+- DevOps & CI/CD
+- Cloud Platforms
+- Backend Frameworks
+- Frontend Frameworks
+- Databases
+- AI Development Tools
+- Data & BI Tools
+- Security & Compliance
+- Monitoring & Observability
+- Automation Platforms
 
-## Expanding the ESLint configuration
+### Segment 2: Business & AI Tools
+- Marketing & Growth Tools
+- SEO Tools
+- Design & Creative Tools
+- Video Editing & Production
+- Audio & Podcast Tools
+- Finance & Accounting
+- CRM Systems
+- HR & Recruitment
+- Legal Tech
+- Education & E-learning
+- Medical & Health AI
+- Cybersecurity Platforms
+- Robotics & Automation
+- No-Code / Low-Code Platforms
+- 3D & Game Development
+- AR/VR Platforms
+- Blockchain & Web3
+- Productivity Tools
+- Knowledge Management
+- Cloud Storage
+- E-commerce Platforms
+- Customer Support
+- Enterprise ERP Systems
+- Hardware AI Devices
+- Research & Academic Tools
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **React 18** - UI framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **Lucide React** - Icons
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📦 Installation
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🗋️ Project Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+tool-app/
+├── src/
+│   ├── components/        # React components
+│   ├── data/
+│   │   ├── categories.json     # 37 categories
+│   │   └── tools_database.json # 500+ tools
+│   ├── types/
+│   │   └── tools.ts       # TypeScript interfaces
+│   ├── App.tsx            # Main application
+│   └── main.tsx           # Entry point
+├── public/                # Static assets
+└── package.json          # Dependencies
+```
+
+## 🔍 Usage
+
+1. **Search**: Type in the search bar to find tools by name, description, or category
+2. **Filter by Segment**: Choose between Development & Data or Business & AI Tools
+3. **Filter by Category**: Select specific tool categories
+4. **Filter by Type**: Open-source, Proprietary, or Open Core
+5. **Free Tier Toggle**: Show only tools with free tiers
+6. **Click Cards**: Visit official websites and explore tool details
+
+## 📄 Data Structure
+
+Each tool includes:
+- Name and official website
+- Category and segment
+- Founded year and type (open-source/proprietary)
+- Detailed description
+- Pricing tiers and plans
+- Pros and cons
+- API availability
+- Tags and features
+
+## 🚀 Deployment
+
+The app is configured for deployment on:
+- **Vercel**: Push to main branch for automatic deployment
+- **Railway**: Deploy with Railway CLI
+- **Netlify**: Drag-and-drop build folder
+- **GitHub Pages**: Build and deploy with GitHub Actions
+
+## 📝 License
+
+MIT License - feel free to use for your projects!
+
+## 🤝 Contributing
+
+Contributions welcome! To add more tools:
+1. Edit `src/data/tools_database.json`
+2. Follow the existing tool structure
+3. Submit a pull request
+
+## 📧 Contact
+
+Built with ❤️ for developers and tech decision-makers worldwide.
