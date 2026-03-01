@@ -1,0 +1,24 @@
+[
+  {
+    "id": "github",
+    "name": "GitHub",
+    "category": "Version Control & Collaboration",
+    "categoryId": "version-control",
+    "website": "https://github.com",
+    "founded": "2008",
+    "type": "Proprietary",
+    "description": "Distributed version control, code hosting, collaborative software development, CI/CD integration, and developer community platform",
+    "pricing": {
+      "free": true,
+      "tiers": [
+        {"name": "Free", "price": 0, "features": ["Unlimited public/private repos", "2,000 Actions minutes/month", "500MB Packages storage"]},
+        {"name": "Team", "price": 4, "period": "user/month", "features": ["3,000 Actions minutes/month", "2GB Packages storage", "Protected branches"]},
+        {"name": "Enterprise", "price": 21, "period": "user/month", "features": ["50,000 Actions minutes/month", "SAML SSO", "Advanced auditing"]}
+      ]
+    },
+    "pros": ["Largest developer community", "Industry-leading CI/CD", "Extensive integrations", "Strong security"],
+    "cons": ["Microsoft ownership concerns", "Pricing can escalate", "Some features enterprise-only"],
+    "apiAvailable": true,
+    "segment": 1
+  }
+]
