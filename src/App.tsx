@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { Search, Filter, ExternalLink, DollarSign } from 'lucide-react';
 import toolsData from './data/tools_database.json';
 import categoriesData from './data/categories.json';
-import { Tool, CategoryMap } from './types/tools';
+import type { Tool, CategoryMap } from './types/tools';
 import './App.css';
 
 function App() {
